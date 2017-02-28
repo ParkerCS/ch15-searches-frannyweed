@@ -43,7 +43,9 @@ print("The average word in Alice in Wonderland is", round(average_length), "lett
 
 # CHOOSE ONE OF THE FOLLOWING TWO PROBLEMS
 
-#3 (13pts)  How many times does "Cheshire" occur in"AliceInWonderLand.txt"?
+#3 (13pts)  How many times does
+
+# "Cheshire" occur in"AliceInWonderLand.txt"?
 # How many times does "Cat" occur?
 # How many times does "Cheshire" immediately followed by "Cat" occur?
 def split_line(line):
