@@ -39,7 +39,7 @@ average = 0
 for i in range(len(text)):
     average += len(text[i])
 average_length = average / len(text)
-print("The average word in Alice in Wonderland is", round(average_length), "letters long.")
+print("The average word in Alice in Wonderland is", round(average_length, 2), "letters long.")
 
 # CHOOSE ONE OF THE FOLLOWING TWO PROBLEMS
 

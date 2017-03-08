@@ -1,3 +1,5 @@
+# Need to open alice again to read through 2nd time.
+
 '''
 Complete the chapter lab at http://programarcadegames.com/index.php?chapter=lab_spell_check
 '''
@@ -22,6 +24,9 @@ for line in alice:
                 break
         else:
             print(word, "in line", line_number, "is not found.")
+
+alice.close()
+alice = open("AliceInWonderLand200.txt", "r")
 
 ### BINARY SEARCH ###
 line_number = 0
